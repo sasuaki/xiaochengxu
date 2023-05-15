@@ -1,0 +1,187 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/registered/index",
+			"style": {
+				"navigationBarTitleText": "挂号"
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "医师课堂"
+			}
+		},
+		{
+			"path": "pages/xinguan-vaccine/index",
+			"style": {
+				"navigationBarTitleText": "新冠疫苗"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom"
+
+			}
+		},
+		{
+			"path": "pages/my-list/xglist/index",
+			"style": {
+				"navigationBarTitleText": "新冠疫苗预约订单"
+
+			}
+		},
+		{
+			"path": "pages/hpv-vaccine/index",
+			"style": {
+				"navigationBarTitleText": "HPV疫苗在线预约"
+
+			}
+		}
+		,
+		{
+			"path": "pages/hpv-vaccine/hpv-buy",
+			"style": {
+				"navigationBarTitleText": "HPV套餐详情"
+
+			}
+		},
+		{
+			"path": "pages/my-service/hpv-view/index",
+			"style": {
+				"navigationBarTitleText": "HPV订单页面"
+
+			}
+		}
+		,
+		{
+			"path": "pages/nucleic-acid/index",
+			"style": {
+				"navigationBarTitleText": "核酸检测预约"
+
+			}
+		},
+		{
+			"path": "pages/my-service/nucleic-acid/index",
+			"style": {
+				"navigationBarTitleText": "核酸检测订单"
+
+			}
+		},
+		{
+			"path": "pages/graphics/index",
+			"style": {
+				"navigationBarTitleText": "图文咨询"
+
+			}
+		},
+		{
+			"path": "pages/my-service/my-patient/index",
+			"style": {
+				"navigationBarTitleText": "我的就诊人"
+
+			}
+		}
+		,
+		{
+			"path": "pages/my-service/my-patient/add-patient",
+			"style": {
+				"navigationBarTitleText": "添加就诊人"
+
+			}
+		}
+		,
+		{
+			"path": "pages/my-service/phy-exam/list",
+			"style": {
+				"navigationBarTitleText": "体检预约订单"
+
+			}
+		}
+		,
+		{
+			"path": "pages/phy-exam/index",
+			"style": {
+				"navigationBarTitleText": "健康体检"
+
+			}
+		}
+		,
+		{
+			"path": "pages/phy-exam/detail",
+			"style": {
+				"navigationBarTitleText": "体检详情"
+
+			}
+		}
+		,
+		{
+			"path": "pages/self-test/topic",
+			"style": {
+				"navigationBarTitleText": "健康自测"
+
+			}
+		}
+		,
+		{
+			"path": "pages/self-test/result",
+			"style": {
+				"navigationBarTitleText": "测评结果"
+
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#7A7e83",
+		"selectedColor":"#3cc51f",
+		"backgroundColor":"#fff",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tab/shouye-001.png",
+				"selectedIconPath":"static/tab/shouye-002.png"
+			},
+			{
+				"pagePath":"pages/registered/index",
+				"text":"挂号",
+				"iconPath":"static/tab/guahao-001.png",
+				"selectedIconPath":"static/tab/guahao-002.png"
+			},
+			{
+				"pagePath":"pages/video/index",
+				"text":"医师课堂",
+				"iconPath":"static/tab/shipin-001.png",
+				"selectedIconPath":"static/tab/shipin-002.png"
+			},
+			{
+				"pagePath":"pages/mine/index",
+				"text":"我的",
+				"iconPath":"static/tab/wode-001.png",
+				"selectedIconPath":"static/tab/wode-002.png"
+			}
+		]
+	}
+}
